@@ -4,12 +4,11 @@ import './App.css';
 import Popup from "./Popup"
 
 function App() {
-    const popupContainer ="this is the container"
+
   return (
     <div className="App">
-      < Popup content={ popupContainer}  />
+      <Popup>this is the container -children</Popup>
     </div>
-
   );
 }
 
