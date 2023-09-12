@@ -1,6 +1,8 @@
+import "./Notification.css"
+
 function Notification(props) {
     return (
-        <div >
+        <div className={props.severity}>
             <h2>
                 { props.title}
            </h2>
