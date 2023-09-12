@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 function Popup(props) {
 
     return (
@@ -7,5 +9,12 @@ function Popup(props) {
       </div>
     );
 }
+Popup.propType = {
+    onClose:PropTypes.func
+}
+Popup.defaultProps = {
+    onClose: () => { }
+}
+
 
 export default Popup

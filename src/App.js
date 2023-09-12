@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <Popup onClose={ gotoNextPage}>
+      <Popup onClose={() => { } }>
         <Notification title="Notice" message="This is second" severity="important" />
       </Popup>
     </div>
