@@ -1,27 +1,15 @@
 // import logo from './logo.svg';
 import './App.css';
-import Notification from "./Notification";
-
+// import Notification from "./Notification";
+import Popup from "./Popup"
 
 function App() {
+    const popupContainer ="this is the container"
   return (
     <div className="App">
-      <Notification
-        title="Notice"
-        message="this is the message"
-        severity="urgent "
-      />
-      <Notification
-        title="Notice"
-        message="this is the message"
-        severity="important"
-      />
-      <Notification
-        title="Notice"
-        message="this is the message"
-        severity="general"
-      />
+      < Popup content={ popupContainer}  />
     </div>
+
   );
 }
 
