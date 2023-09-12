@@ -1,5 +1,11 @@
 function Popup(props) {
-    return (<div>{props.children }</div>)
+    const handleClick = props.onClose;
+    return (
+      <div>
+            <div>{props.children}</div>
+            <button onClick="handleClick">close</button>
+      </div>
+    );
 }
 
 export default Popup
