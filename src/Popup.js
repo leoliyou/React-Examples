@@ -3,7 +3,7 @@ function Popup(props) {
     return (
       <div>
             <div>{props.children}</div>
-            <button onClick="handleClick">close</button>
+            <button onClick={handleClick}>close</button>
       </div>
     );
 }

@@ -5,7 +5,7 @@ import Popup from "./Popup"
 
 
 function gotoNextPage() {
-  window.location.href = "https://reactis.org";
+  window.location.href = "https://www.baidu.com";
 }
 
 function App() {
