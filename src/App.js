@@ -1,21 +1,21 @@
 // import logo from './logo.svg';
-import './App.css';
-import Notification from "./Notification";
-import Popup from "./Popup"
+// import './App.css';
+// import Notification from "./Notification";
+// import Popup from "./Popup"
 
 
-function gotoNextPage() {
-  window.location.href = "https://www.baidu.com";
-}
-
+// function gotoNextPage() {
+//   window.location.href = "https://www.baidu.com";
+// }
+import LikeButton from "./LikeButton";
 function App() {
 
   return (
     <div className="App">
-      <Popup onClose={() => { } }>
-        <Notification title="Notice" message="This is second" severity="important" />
-      </Popup>
-    </div>
+         <LikeButton />
+         <LikeButton liked={true} likedCount={8} />
+      </div>
+
   );
 }
 
